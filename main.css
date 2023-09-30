@@ -1,17 +1,9 @@
 .container {
-  width: 365px; 
-  height: 718px;
-  
-
-}
-/* .bgimg{
-  border: 2px solid red;
   width: 365px;
-} */
+  height: 718px;
+}
 
-
-
-.navbar{
+.navbar {
   /* width: 375px; */
   height: 48px;
   display: flex;
@@ -53,11 +45,11 @@
 }
 
 .head {
-  background-image: url('/assets/bg1.jpg'); 
+  background-image: url('/assets/bg1.jpg');
   background-repeat: no-repeat;
- 
   background-color: #fff;
   width: hug (375px);
+
   /* height: hug (604px); */
   top: 92px;
   padding: 114px, 24px, 114px, 24px;
