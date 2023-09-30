@@ -1,94 +1,108 @@
-.container{
-    /* border: 1px solid black; */
-     width: 375px;
-     height: 718px;
+.container {
+  width: 365px; 
+  height: 718px;
+  
+
 }
+/* .bgimg{
+  border: 2px solid red;
+  width: 365px;
+} */
+
+
+
 .navbar{
-    width: 375px ;
-    height: 48px;
-    /* border: 1px solid red; */
-    display: flex;
-    justify-content: space-between;
-}
-.logo{
-    width: Hug (100px) ;
-    height: Hug (40px) ;
-    top: 4px ;
-    left: 12px ;
-    padding: 10px, 12px, 10px, 12px;
-    /* border: 1px solid rgb(198, 97, 25); */
-   
-    
-}
-.mainlogo{
-    width: 76px ;
-    height: 20px;
-    font-family: Poppins;
-        font-size: 13px;
-        font-weight: 700;
-        line-height: 20px;
-        letter-spacing: 0em;
-        text-align: center;
-        color: #6070FF;
-}
-.hamburgur{
-width: Hug (40px) ;
-height: Hug (40px) ;
-top: 4px ;
-left: 311px ;
-padding: 8px ;
-border-radius: 8px;
-
-}
-.hamicon{
-    width: 24px ;
-    height: 24px ;
-    padding: 6px, 3px, 6px, 3px
+  /* width: 375px; */
+  height: 48px;
+  display: flex;
+  justify-content: space-between;
 }
 
-.head{
-    /* border: 3px solid green; */
-    /* border: 1px solid green; */
-    width: Hug (375px);
-     height: Hug (604px) ;top: 92px ;padding: 114px, 24px, 114px, 24px ;gap: 12px
+.logo {
+  width: hug (100px);
+  height: hug (40px);
+  top: 4px;
+  left: 12px;
+  padding: 10px, 12px, 10px, 12px;
 }
-.ptest{
-    width: 327px;
-     height: 150px;
-        font-family: Poppins;
-        font-size: 40px;
-        font-weight: 700;
-        line-height: 52px;
-        letter-spacing: 0em;
-        text-align: left;
+
+.MainLogo {
+  width: 76px;
+  height: 20px;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0;
+  text-align: center;
+  color: #6070ff;
 }
-.ptext1{
-    width: 327px ;
-    height: 146px;
-        font-family: Poppins;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 24px;
-        letter-spacing: 0em;
-        text-align: left;
+
+.hamburgerMenu {
+  width: hug (40px);
+  height: hug (40px);
+  top: 4px;
+  left: 311px;
+  padding: 8px;
+  border-radius: 8px;
 }
-.ptext2{
-    width: 117px ;
-    height: 24px;
-        font-family: Poppins;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 24px;
-        letter-spacing: 0em;
-        text-align: left;
-        color: #7F8CFF;
+
+.hamburgerMenuIcon {
+  width: 24px;
+  height: 24px;
+  padding: 6px, 3px, 6px, 3px;
 }
-.icons{
-width: 170.17px ;
-height: 20px;
-margin-top: 26px;
-/* border: 1px solid green; */
+
+.head {
+  background-image: url('/assets/bg1.jpg'); 
+  background-repeat: no-repeat;
+ 
+  background-color: #fff;
+  width: hug (375px);
+  /* height: hug (604px); */
+  top: 92px;
+  padding: 114px, 24px, 114px, 24px;
+  gap: 12px;
 }
-.icons img{
-    margin: 10px;
+
+.paragraph1 {
+  width: 327px;
+  height: 150px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.paragraph2 {
+  width: 327px;
+  height: 146px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.paragraph3 {
+  width: 117px;
+  height: 24px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #7f8cff;
+}
+
+.icons {
+  width: 170.17px;
+  height: 20px;
+  margin-top: 26px;
+
+  /* border: 1px solid green; */
+}
+
+.icons img {
+  margin: 10px;
 }
