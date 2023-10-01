@@ -1,100 +1,197 @@
-.container {
-  width: 365px;
-  height: 718px;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.navbar {
-  /* width: 375px; */
-  height: 48px;
-  display: flex;
-  justify-content: space-between;
+body {
+  background-color: #e5e5e5;
+}
+
+.content {
+  background-color: #fff;
+}
+
+
+.logo_main {
+  color: #6070ff;
+  font-size: 18px;
+  line-height: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  font-style: normal;
+
+ 
 }
 
 .logo {
-  width: hug (100px);
-  height: hug (40px);
-  top: 4px;
-  left: 12px;
-  padding: 10px, 12px, 10px, 12px;
+  height: 25px;
+  padding-top: 2px;
+  cursor: pointer;
 }
 
-.MainLogo {
-  width: 76px;
-  height: 20px;
-  font-size: 13px;
-  font-weight: 700;
-  line-height: 20px;
-  letter-spacing: 0;
-  text-align: center;
-  color: #6070ff;
+.logo_box {
+  width: 100px;
+  height: 100%;
+  padding: 10px 12px;
+  display: flex;
+  justify-content: flex-start;
+  flex-grow: 1;
 }
 
-.hamburgerMenu {
-  width: hug (40px);
-  height: hug (40px);
-  top: 4px;
-  left: 311px;
-  padding: 8px;
-  border-radius: 8px;
+.header_h {
+  position: fixed;
+  width: 100vw;
+  height: 48px;
+  border-bottom-left-radius: 8px;
+  display: flex;
+
+  /* z-index: 100; */
+  border-bottom-right-radius: 8px;
+    
 }
 
-.hamburgerMenuIcon {
-  width: 24px;
-  height: 24px;
-  padding: 6px, 3px, 6px, 3px;
-}
 
-.head {
-  background-image: url('/assets/bg1.jpg');
-  background-repeat: no-repeat;
+
+
+.headlineBox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 114px 24px;
+  border-bottom-left-radius: 100px;
+  background-size: cover;
+  background-image: url("assets/bg.png");
   background-color: #fff;
-  width: hug (375px);
-
-  /* height: hug (604px); */
-  top: 92px;
-  padding: 114px, 24px, 114px, 24px;
-  gap: 12px;
 }
 
-.paragraph1 {
+.headline {
   width: 327px;
-  height: 150px;
+  flex: none;
+  order: 0;
+  height: 180px;
+  margin: 5px;
+}
+
+.headlineTitle {
   font-size: 40px;
-  font-weight: 700;
   line-height: 52px;
-  letter-spacing: 0;
-  text-align: left;
+  font-style: normal;
+  padding: 8px;
+}
+.CLC {
+  margin: 20px 24px 2px 24px;
+  width: 130px;
+  height: 24px;
 }
 
-.paragraph2 {
-  width: 327px;
-  height: 146px;
+.Menu {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+  width: 100px;
+  height: 100%;
+
+
+}
+
+.Menu1 {
+  display: flex;
+  flex-direction: column;
+  width: 40px;
+  height: 100%;
+  gap: 2.5px;
+  padding-top: 10px;
+  align-items: center;
+}
+
+.line {
+  height: 3.5px;
+  list-style: none;
+  width: 25px;
+}
+
+
+
+.descriptionBox{
+  line-height: 24px;
+  text-align: start;
+  margin: 5px 15px;
+}
+
+.description {
+  line-height: 24px;
+  color: #344563;
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0;
-  text-align: left;
 }
 
-.paragraph3 {
-  width: 117px;
-  height: 24px;
+
+.Item {
+  text-decoration: none;
   font-size: 16px;
-  font-weight: 500;
+  font-style: normal;
   line-height: 24px;
-  letter-spacing: 0;
-  text-align: left;
   color: #7f8cff;
 }
 
-.icons {
-  width: 170.17px;
-  height: 20px;
-  margin-top: 26px;
 
-  /* border: 1px solid green; */
+
+.networkItems {
+  column-gap: 19px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-grow: 1;
+  padding: 1px;
+}
+.networkBox {
+  height: 40px;
+  margin: 5px 24px;
+  width: 175px;
 }
 
-.icons img {
-  margin: 10px;
+
+.PIC {
+  display: inline-block;
+  background-size: cover;
+  width: 25px;
+  height: 25px;
 }
+
+.icon{
+  width: 20px;
+  height: 25px;
+  text-decoration: none;
+  list-style: none;
+  
+  display: inline-block; 
+  margin-top: 12px;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.medium {
+  background-image: url("/assets/MI.svg");
+}
+
+.github {
+  background-image: url("assets/GHI.svg");
+}
+
+.peace {
+  background-image: url("assets/PI.svg");
+}
+.twitter {
+  background-image: url("assets/TI.svg");
+}
+
+.linkedlin {
+  background-image: url("assets/LI.svg");
+}
+
+
+
