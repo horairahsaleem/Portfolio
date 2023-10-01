@@ -38,15 +38,22 @@ body {
   justify-content: flex-start;
   flex-grow: 1;
 }
+ .header-toolbar-container {
+  position: fixed;
+  width: 100vw;
+  height: 48px;
+  border-bottom-left-radius: 8px;
+  display: flex;
+  
+} 
 
 .header_h {
   position: fixed;
   width: 100vw;
   height: 48px;
   border-bottom-left-radius: 8px;
-  display: flex;
 
-  /* z-index: 100; */
+
   border-bottom-right-radius: 8px;
 }
 
@@ -104,6 +111,7 @@ body {
   height: 3.5px;
   list-style: none;
   width: 25px;
+  background-color:  #6070ff;;
 }
 
 .descriptionBox {
@@ -483,4 +491,87 @@ body {
   margin: 2px;
   background-image: url("assets/techicon3.PNG");
   background-size: cover;
+}
+/* Contact form */
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px;
+  margin-top: -76px;
+  background-color: #6070ff;
+  background-image: url(src/svg/contact\ form\ shapes-mobile.svg);
+  background-size: cover;
+  border-top-left-radius: 100px;
+}
+
+
+.contact-title-container {
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 25px;
+  align-items: center;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+
+.contact-description-container {
+  text-align: center;
+  margin: 0 24px;
+}
+
+.contact-description {
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+}
+
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+
+.input-client-info {
+  font-weight: 400;
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #cfd8dc;
+  padding: 15px;
+}
+
+.client-message {
+  font-weight: 400;
+  min-width: 100%;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #cfd8dc;
+  max-width: 100%;
+  min-height: 150px;
+  max-height: 180px;
+}
+
+.contact-button {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  transition: background-color 500ms ease;
+  letter-spacing: 1.5px;
+  color: #6070ff;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.contact-button:hover {
+  max-width: 100%;
+  background-color: rgb(151, 161, 245);
+  color: #fff;
 }
