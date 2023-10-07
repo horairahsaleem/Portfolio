@@ -126,6 +126,20 @@ body {
   line-height: 52px;
   font-style: normal;
   padding: 8px;
+  animation: heading-animation 2s ease-in-out infinite;
+
+}
+@keyframes heading-animation {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+    color: #6070ff;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 0.8;
+    color: #ff6b6b;
+  }
 }
 
 .CLC {
@@ -134,30 +148,6 @@ body {
   height: 24px;
 }
 
-.Menu {
-  display: flex;
-  flex-grow: 1;
-  justify-content: flex-end;
-  width: 100px;
-  height: 100%;
-}
-
-.Menu1 {
-  display: flex;
-  flex-direction: column;
-  width: 40px;
-  height: 100%;
-  gap: 2.5px;
-  padding-top: 10px;
-  align-items: center;
-}
-
-.line {
-  height: 3.5px;
-  list-style: none;
-  width: 25px;
-  background-color: #6070ff;
-}
 
 .descriptionBox {
   line-height: 24px;
@@ -363,6 +353,7 @@ body {
   list-style: none;
   display: flex;
   color: #6070ff;
+  
 }
 
 .tag-btn {
@@ -373,6 +364,16 @@ body {
   text-decoration: none;
   color: #6070ff;
 }
+
+
+.tags {
+  transition: transform 0.2s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+.tags:hover {
+  transform: scale(1.2);
+}
+
 
 .project-bottom-container {
   height: 100px;
@@ -487,6 +488,7 @@ body {
 .code-language-container {
   border: 1px solid black;
   width: 100%;
+  
 }
 
 .code-items {
@@ -516,7 +518,7 @@ body {
   height: 48px;
   border-radius: 50%;
   margin: 2px;
-  background-image: url("assets/techIcon1.PNG");
+  background-image: url("assets/techicon1.PNG");
   background-size: cover;
 }
 
@@ -525,7 +527,7 @@ body {
   height: 48px;
   border-radius: 50%;
   margin: 2px;
-  background-image: url("assets/techIcon2.PNG");
+  background-image: url("assets/techicon2.PNG");
   background-size: cover;
 }
 
@@ -534,7 +536,7 @@ body {
   height: 48px;
   border-radius: 50%;
   margin: 2px;
-  background-image: url("assets/techIcon3.PNG");
+  background-image: url("assets/techicon3.PNG");
   background-size: cover;
 }
 
@@ -616,4 +618,42 @@ body {
   max-width: 100%;
   background-color: rgb(151, 161, 245);
   color: #fff;
+}
+
+.bounce1 {
+  animation: bounce 2s ease-in-out infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-49px);
+  }
+}
+
+.bounce2 {
+  animation: bounce 2s ease-in-out infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+.bounce3 {
+  animation: bounce 2s ease-in-out infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
 }
