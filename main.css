@@ -516,7 +516,7 @@ body {
   height: 48px;
   border-radius: 50%;
   margin: 2px;
-  background-image: url("assets/techIcon1.PNG");
+  background-image: url("assets/techicon1.PNG");
   background-size: cover;
 }
 
@@ -525,7 +525,7 @@ body {
   height: 48px;
   border-radius: 50%;
   margin: 2px;
-  background-image: url("assets/techIcon2.PNG");
+  background-image: url("assets/techicon2.PNG");
   background-size: cover;
 }
 
@@ -534,7 +534,7 @@ body {
   height: 48px;
   border-radius: 50%;
   margin: 2px;
-  background-image: url("assets/techIcon3.PNG");
+  background-image: url("assets/techicon3.PNG");
   background-size: cover;
 }
 
