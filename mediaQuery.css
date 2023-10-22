@@ -7,8 +7,11 @@
 
 /* Desktop query portfolio version */
 @media only screen and (min-width: 992px) {
-  #line {
+  .line {
     display: none;
+  }
+  .menu-links {
+    display: block;
   }
 
   .menu-container {
